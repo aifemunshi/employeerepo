@@ -8,7 +8,8 @@ phases:
   post_build:
       commands:
       - echo Build completed successfully.....
+      - ls -ltr
 artifacts:
   files:
-    - target/employeeservice.jar
+    - sample.multimodule.application/target/employeeservice.jar
   discard-paths: yes
