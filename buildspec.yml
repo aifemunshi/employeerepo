@@ -9,7 +9,9 @@ phases:
       commands:
       - echo Build completed successfully.....
       - ls -ltr
+      - cd application/target/
+      - ls -ltr
 artifacts:
   files:
-    - sample.multimodule.application/target/employeeservice.jar
+    - application/target/employeeservice.jar
   discard-paths: yes
